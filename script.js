@@ -1,8 +1,7 @@
 var isDate = function (input) {
   //   write your code here
 return (input instanceof Date && !isNaN(input)) ||
-       ((typeof input === "string" || typeof input === "number") && !isNaN(new Date(input)));
-
+         ((typeof input === "string" || typeof input === "number") && !isNaN(new Date(input)));
 };
 
 // Do not change the code below.
